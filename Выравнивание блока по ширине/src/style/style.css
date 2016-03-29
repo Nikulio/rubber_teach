@@ -1,0 +1,24 @@
+* {
+    padding:0;
+    margin: 0;
+}
+.main {
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 20px auto;
+    background: cornflowerblue;
+    overflow: hidden;
+    padding: 20px;
+    text-align: justify;
+}
+.block {
+    width: 150px;
+    padding: 20px;
+    border: 2px solid #999;
+    background: forestgreen;
+    display: inline-block;
+}
+.footer {
+    display: inline-block;
+    width: 100%;
+}

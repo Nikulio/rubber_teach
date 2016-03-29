@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    min-width: 400px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.menu ul {
+    background: url("menu-bg.jpg") repeat-x;
+    display:table-row;
+}
+.menu ul li {
+    display: table-cell;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.menu ul li a {
+    color: white;
+    font-size: 14px;
+    font-family:Verdana, sans-serif;
+    text-decoration:none;
+    height: 50px;
+    display: table-cell;
+    width: 1000px;
+    vertical-align: middle;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
